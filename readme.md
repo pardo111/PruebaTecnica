@@ -65,8 +65,6 @@ en las vistas:
 
 Podra ver listado lo que son los totales sin filtros de estas tablas.
 
-## ultima dato
-
 Siguiendo con fidelidad lo solicitado en el inciso 2:
 
 *_Realizar una página web que muestre el listado de los nombres de productos vendidos. Esta página web tendrá un filtro por categoría, este filtro debe ser una lista de valores del campo Nombre de la tabla Categoria y solo debe mostrar las categorías que tuvieron ventas en el año 2019._*
