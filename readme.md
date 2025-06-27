@@ -91,12 +91,12 @@ Las cuales unicamente las realice debido a un bug personal que tuve en mi comput
 el managment studio no me identificaba la base de datos, y fue mi solucion para ir depurando 
 y comprobando todo en el flujo de trabajo.
 
--De manera personal es mi primer proyecto algo mas alla de programa de consola con C#
+- De manera personal es mi primer proyecto algo mas alla de programa de consola con C#
 en la cual tuve que investigar de una u otra manera ciertas cosas para poder entregarlo, 
 pero debido a que anteriormente he realizado proyectos algo mas extensos usando arquitecturas 
 similares en lenguajes como php, js y java, se me hizo mucho mas simple.
 
--Debido a mi falta de experiencia usando lo que es SQLserver y C# me tomo mas tiempo del esperado
+- Debido a mi falta de experiencia usando lo que es SQLserver y C# me tomo mas tiempo del esperado
 poder realizar la prueba tecnica, pero me dejo minimo el sabor de que es interesante realizar proyectos bajo 
 esta plataforma, lo cual proximamente sin duda realizare mas proyectos de manera academica bajo arquitectura
 api REST (la cual prefiero en lo personal sobre MVC).
