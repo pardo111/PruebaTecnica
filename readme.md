@@ -14,6 +14,8 @@ Tener instalado dotnet ef
 
 ### Pasos a seguir para poder levatar el proyecto en local:
 
+**Clonar repositorio con `git clone https://github.com/pardo111/PruebaTecnica`**
+
 1.  Ir al archivo ubicado en la raiz ./Program.cs y en la linea 9 la cadena que se le pasa como 
     argumento al metodo UseSqlServer poner la url de tu base de datos.
 
