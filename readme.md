@@ -51,17 +51,17 @@ Para que la ruta anteriormente especificada pueda verificarse que cumpla segun r
 del inciso 2, la base de datos no debe estar vacia, en caso deseen llenar con campos de prueba, pueden 
 consultar las rutas:
 
--`http://localhost:5015/Categoria/create`
--`http://localhost:5015/Producto/create`
--`http://localhost:5015/Venta/create`
+- `http://localhost:5015/Categoria/create`
+- `http://localhost:5015/Producto/create`
+- `http://localhost:5015/Venta/create`
 
 Las cuales arrojaran formularios los cuales habria que llenar para insertar datos; tomar en cuenta que estos
 form no son tolerantes a fallos (datos null, etc).
 
 en las vistas:
 
--`http://localhost:5015/Categoria/`
--`http://localhost:5015/Producto/`
+- `http://localhost:5015/Categoria/`
+- `http://localhost:5015/Producto/`
 
 Podra ver listado lo que son los totales sin filtros de estas tablas.
 
@@ -79,13 +79,13 @@ Solo arroja el nombre del producto, solo pudiendo filtrar la categoria, pero el 
 
 ## no obligatorias, solamente observaciones personales
 
--En el presente trabajo existen rutas no solicitadas como:
+- En el presente trabajo existen rutas no solicitadas como:
 
--`http://localhost:5015/Categoria/`
--`http://localhost:5015/Producto/`
--`http://localhost:5015/Categoria/create`
--`http://localhost:5015/Producto/create`
--`http://localhost:5015/Venta/create`
+    - `http://localhost:5015/Categoria/`
+    - `http://localhost:5015/Producto/`
+    - `http://localhost:5015/Categoria/create`  
+    - `http://localhost:5015/Producto/create`
+    - `http://localhost:5015/Venta/create`
 
 Las cuales unicamente las realice debido a un bug personal que tuve en mi computadora que 
 el managment studio no me identificaba la base de datos, y fue mi solucion para ir depurando 
@@ -101,5 +101,5 @@ poder realizar la prueba tecnica, pero me dejo minimo el sabor de que es interes
 esta plataforma, lo cual proximamente sin duda realizare mas proyectos de manera academica bajo arquitectura
 api REST (la cual prefiero en lo personal sobre MVC).
 
--Sin nada mas que decir solo agradezco la oportunidad de poder realizar esta prueba y quedo atento a sus indicaciones,
+- Sin nada mas que decir solo agradezco la oportunidad de poder realizar esta prueba y quedo atento a sus indicaciones,
  comentarios o avisos esperando que se encuentre bien el estimado lector.
