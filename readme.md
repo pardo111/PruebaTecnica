@@ -6,13 +6,13 @@
 
 ## Inciso 2 solucion
 
-Requerimientos:
+### Requerimientos:
 Tener instalado sqlserver 2022 
 Tener instalado entorno .net
 Tener instalado dotnet ef
  para instalar ejecuta en terminal `dotnet tool install --global dotnet-ef`
 
-Pasos a seguir para poder levatar el proyecto en local:
+### Pasos a seguir para poder levatar el proyecto en local:
 
 1.  Ir al archivo ubicado en la raiz ./Program.cs y en la linea 9 la cadena que se le pasa como 
     argumento al metodo UseSqlServer poner la url de tu base de datos.
