@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\LaravelBack\\Productos\\Productos.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\laPithon\\PruebaTecnica\\Productos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\LaravelBack\\Productos\\Productos.csproj": {
+    "C:\\Users\\DELL\\Desktop\\laPithon\\PruebaTecnica\\Productos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\LaravelBack\\Productos\\Productos.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\laPithon\\PruebaTecnica\\Productos.csproj",
         "projectName": "Productos",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\LaravelBack\\Productos\\Productos.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\laPithon\\PruebaTecnica\\Productos.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\LaravelBack\\Productos\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\laPithon\\PruebaTecnica\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"

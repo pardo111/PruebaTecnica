@@ -3,8 +3,10 @@ using App.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+//AQUI CAMBIA TU URL DE LA BASE DE DATOS
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer("Server=localhost;Database=tienda;Trusted_Connection=True;TrustServerCertificate=True;"));
+    options.UseSqlServer("Server=localhost;Database=cambiando;Trusted_Connection=True;TrustServerCertificate=True;"));
 
 builder.Services.AddControllersWithViews();
 
