@@ -27,7 +27,13 @@ CREATE TABLE Venta (
     REFERENCES Producto(CodigoProducto)
 );
 
+-- creando indices en columnas para poder optimizar consultas sobre las mismas tablas
 
+--para optener indice sobre campo fecha ordenando de forma descendente
+CREATE NONCLUSTERED INDEX IX_Venta_Fecha ON Venta(Fecha DESC);
+--indices sobre las llaves foraneas en las tablas 
+CREATE INDEX IX_Producto_CodigoCategoria ON Producto(CodigoCategoria);
+CREATE INDEX IX_Venta_CodigoProducto ON Venta(CodigoProducto);
 
 
 

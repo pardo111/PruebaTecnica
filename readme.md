@@ -4,6 +4,33 @@
     archivo SQLQuery.sql hallado en la raiz del repositorio
 
 
+### Razonamiento de la solucion:
+
+    - La base de datos se realizo con fidelidad al diagrama establecido en gitlabs
+    intuiyendo los tipos de dato que seria cada columna para simplificar la prueba 
+    lo mas posible, se agregaron indices a las llaves foraneas para que sea mucho 
+    mas ligera la consulta, esto debido a que pasa de una busqueda profunda, o que
+    revise todos los resultados de esa columna a una busqueda de arbol b.
+    En la consulta se hace un inner join a las tres tablas para obtener la informacion debido
+    a que incluye las tres tablas la informacion requerida.
+
+
+    - Dada la ambigüedad del diagrama establecido en el gitlab (tipo de dato faltante, etc)
+    ,para respetar las intrucciones dadas se realizo con esos campos y mantener el codigo 
+    lo mas simplificado posible, esto para ganar tiempo debido a que usaria la misma para 
+    el programa y mi falta de costumbre a C#, se realizo de dicha manera, pero estas desde mi 
+    perspectiva deberia agregarse lo que seria una tabla catalogo  llamada estado con llave foranea
+    en cada tabla ya existente de la base, esta para si desean eliminar algo de la base de datos 
+    esta pueda solo cambiar el estado a inactivo, para llevar mejor control sin perdida de datos,
+    asi como una tabla bitacora donde por medio de triggers esta guarde inserciones y actualizaciones 
+    de cada tabla guardando informacion pertinente para llevar un monitoreo (o auditacion o control)
+    en la base de datos, pero recalcando, que para mantener todo lo mas simple posible por el tiempo,
+    que dichos cambios solo atrasarian el procedimiento, aumentarian en poca medida la dificultad del
+    programa y que como esta base de datos no saldria a produccion, no se me hizo indispensable agregar
+    dichos cambios a la base de datos, pero era necesario comentarlo debido a que aporta un gran valor 
+    cuando las bases de datos son para produccion, y en mi perspectiva, son necesarias para evitar 
+    incovenientes.
+
 ## Inciso 2 solucion
 
 ### Requerimientos:
